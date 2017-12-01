@@ -1,0 +1,530 @@
+/*
+font-family: 'Bungee Shade', cursive;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Ruda', sans-serif;
+*/
+
+
+
+
+#collectiveHeader {
+    display: block;
+    position: fixed;
+    text-align: left;
+    color: black;
+    width: 50%;
+    left: 33.5%;
+    top: 0%;
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive; 
+    font-size: 4vw;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+    background-color: transparent;
+    
+    
+
+}
+
+#collectiveHeader a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    
+}
+
+
+
+
+#entryHead {
+    display: inline-block;
+    position: fixed;
+    top: 15%;
+    width: 45%;
+    left: 27.5%;
+    clear: both; 
+}
+
+
+
+
+#navbar {
+    display: block;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 2vw;
+    position: fixed;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 50%;
+    left: 25%;
+    top: 11%;
+    text-align: center;
+    z-index: 8;
+    
+    
+    
+}
+
+#navbar a {
+    background-color: transparent;
+    padding-right: 15px;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    font-family: 'Bungee Inline', cursive;
+    
+}
+
+
+
+#sortingBar{
+    display: block;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    width: 10%;
+    align-content: left;
+    overflow: auto;
+    
+    
+}
+
+.sortbtn {
+    color: black;
+    padding: 5px;
+    font-size: 1.2vw;
+    z-index: 10;
+    background-color: white;
+    font-family: 'Bungee Outline', cursive;
+    border: none;
+    
+}
+
+.sortbar {
+    position: relative;
+    display: block;
+}
+
+.sortbar-content {
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: white;
+    
+}
+
+.sortbar-content a {
+    font-family: 'Ruda', sans-serif;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    word-wrap: normal;
+    font-size: .9vw;
+    z-index: 10;
+}
+
+.sortbar-content a:hover {
+    color: darkgray;
+}
+
+.sortbar:hover .sortbar-content {
+    display: block;
+    overflow: hidden;
+}
+
+.sortbar:hover .sortbtn {
+    text-align: left;
+    font-family: 'Bungee Inline', cursive;
+    
+}
+
+
+
+#galleryProjectPiece {
+    position: fixed;
+    display: block;
+    float: left;
+    top: 15%;
+    right: 20%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bungee Inline', cursive;
+    z-index: 12;
+}
+
+#galleryProjectPiece a {
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+#galleryProjectPiece a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+#gallery {
+    position: fixed;
+    display: block;
+    float: left;
+    width: 50%;
+    left: 30%;
+    top: 20%;
+    overflow: auto;
+    height: 60%;
+    
+    
+}
+
+#galleryPieces {
+    position: fixed;
+    display: block;
+    white-space: nowrap;
+    width: 50%;
+    left: 30%;
+    top: 20%;
+    overflow: scroll;
+    height: 60%;
+    overflow-x: hidden;
+    
+}
+
+.galleryItemPiece {
+    display: block;
+    float: left;
+    cursor: pointer;
+    width: 28%;
+    padding: 1%;
+    white-space: nowrap; 
+    
+}
+
+.galleryItemPiece a{
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    box-decoration-break: 0px;
+}
+
+
+
+.galleryItem a{
+    float: left;
+    display: block;
+    cursor: pointer;
+    width:  27%;
+    padding: 3%;
+    min-width: 120px;  
+    
+}
+
+galleryItem a {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#galleryHeadLeft {
+    position: fixed;
+    top: 20%;
+    right: 80.5%;
+    height: 67%;
+    
+}
+
+#galleryHeadRight {
+    position: fixed;
+    top: 20%;
+    left: 80.5%;
+    height: 67%;
+    
+}
+
+
+
+.galleryItem a img {
+    width: 100%;
+}
+
+
+.galleryHover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+@media only screen and (max            blah blah blah responsive something)
+
+.galleryProjectName {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+
+
+
+
+
+
+
+h4 {
+    display: block;
+    left: 10%;
+    padding-top: 50px;
+    padding-left: 13%;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: gray;
+}
+
+#about {
+    display: block;
+    position: fixed;
+    padding: 10px;
+    width: 40%;
+    top: 20%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+
+#about p , a{
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+    
+}
+
+#aboutHead{
+    display: block;
+    position: fixed;
+    padding: 10px;
+    width: 40%;
+    top: 20%;
+    left: 5%; 
+}
+
+
+
+#contact  {
+    display: block;
+    position: fixed;
+    color: white;
+    align-content: center;
+    top: 33%;
+    right: 21%;
+    width: 22%;
+    font-size: 1vw;
+        
+    
+}
+
+form {
+    display: block;
+}
+
+form input {
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+    
+}
+
+#contactDescription  {
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: fixed;
+    align-content: center;
+    padding: .5%;
+    right: 21%;
+    width: 21%;
+    top: 20%;
+    font-size: 1vw;
+    
+}
+
+
+#contactHead img {
+    position: fixed;
+    display: block;
+    top: 20%;
+    width: 80%;
+    
+}
+
+#contactSubmit {
+    color: white;
+    background-color: gray;
+}
+
+
+#currently{
+    background-color: white;
+    position: fixed;
+    overflow-y: auto;
+    left: 11%;
+    top: 45%;
+    width: 26%;
+    padding: .5%;
+    
+}
+
+#currentlyHead img{
+    position: fixed;
+    display: block;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+}
+
+
+#artPageImage {
+    display: block;
+    position: fixed;
+    left: 26%;
+    width: 50%;
+    overflow: auto;
+}
+
+#artPageImage img {
+    width: 100%;
+    overflow: auto;
+}
+
+
+
+#footer {
+    clear:both;
+    display: block;
+    position: fixed;
+    float: none;
+    bottom: 0%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: lightgrey;
+    background-color: white;
+    font-size: 8pt;
+    
+    
+    
+}
+
+#footer p {
+    text-align: center;
+}
+
+
+
+
+#projectGallery {
+    position: fixed;
+    display: block;
+    width: 40%;
+    left: 40%;
+    top: 20%;
+    overflow:auto;
+    height: 60%;
+    
+    
+}
+
+.projectGalleryImage {
+    width: 97%;
+    padding-bottom: 10px;
+    
+}
+
+#projectDescription {
+    display: block;
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    width: 19%;
+    height: 60%;
+    align-content: left;
+    overflow: auto;
+}
+
+#projectDescription h3 {
+    padding-top: 0px;
+    margin: 0px;
+    font-family: 'Bungee', cursive;
+}
+
+#projectDescription p {
+    padding-top: 0px;
+    margin: 0px;
+    font-family: 'Ruda', sans-serif;
+    overflow: auto;
+    
+    
+}
+
+
+
+#about a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bungee', cursive;
+}
+
+#about p {
+    color: black;
+    font-family: 'Ruda', sans-serif;
+}
+
+
+
+
+::-webkit-scrollbar              {
+    width: 8px;
+    padding: 2px;
+}
+::-webkit-scrollbar-button       { 
+    background-color: lightgray;
+    height: 3px;
+}
+::-webkit-scrollbar-track        { 
+    background-color: white;
+}
+::-webkit-scrollbar-track-piece  { 
+    
+}
+::-webkit-scrollbar-thumb        { 
+    background-color: whitesmoke;
+}
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
